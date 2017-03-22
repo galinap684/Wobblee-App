@@ -20,12 +20,13 @@ transition: all 0.5s ease-in-out;
 border-radius: $radius;
 -khtml-border-radius: $radius;
 }
-//
-// body {
-// background-color: #5d6cd6;
-// font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-// height:100%;
-// }
+
+body {
+background-color: //#a2a9dc
+#5864dc;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+height:100%;
+}
 
 .wrapper {
 width: 900px;
@@ -42,7 +43,7 @@ h1, h2, h3 {
 }
 
 #seconds, #tens{
-  font-size:2em;
+  font-size:2.5em;
 }
 
 button{
