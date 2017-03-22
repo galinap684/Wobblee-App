@@ -21,8 +21,8 @@
   font-family: "HelveticaNeue-Light";
   color: #75797F;
   position: absolute;
-  bottom: 380px;
-  left: 185px;
+  bottom: 360px;
+  left: 155px;
   text-align-last: center;
 }
 
@@ -32,7 +32,7 @@
   color: #75797F;
   position: absolute;
   bottom: 200px;
-  left: 195px;
+  left: 175px;
   text-align-last: center;
 }
 
@@ -49,5 +49,15 @@ h3 {
 }
 
 span {
-  color: #fefefe;
+  color: #325EEA;
+}
+
+#safe_whobbles {
+  font-size: 37px;
+  font-family: "HelveticaNeue-Light";
+  color: #325EEA;
+  position: absolute;
+  bottom: 105px;
+  left: 360px;
+  text-align-last: center;
 }

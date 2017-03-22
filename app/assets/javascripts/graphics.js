@@ -38,7 +38,7 @@ function bubbles() {
     $('.bubbles').append('<div class="bubble-container"><div class="bubble"></div></div>');
 
     if (i === Math.floor(bubbleCount/2)) {
-      $('.bubbles').append('<div class="bubble-container" id="green"><div class="bubble"></div></div>');
+      $('.bubbles').append('<a href="/game_result"> <div class="bubble-container" id="green"><div class="bubble"></div></div></a>');
     }
   }
 }

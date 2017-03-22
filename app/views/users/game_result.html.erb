@@ -7,18 +7,20 @@
 
 <div class="gif">
 
-  <p id="paragraph_line_one">Your Reaction Time was <span>.37 seconds</span></p>
+  <p id="paragraph_line_one">Your Reaction Time was <span><%=cookies['timer']%> seconds</span></p>
 
-  <p id="paragraph_line_two">If you drink between 2 and 5 cups <br>
-    it will take about <span>5 hours </span>for the alcohol <br>
-    to leave your body and you should <br>
+  <p id="paragraph_line_two">Whoa! Someone's a party animal! <br>
+    With that reaction time, <br> it will take you about <span>5 hours </span>for the alcohol <br>
+    to exit your system! <br> You should
     <span>NOT BE DRIVING</span></p>
 
     <p id="paragraph_line_three">Please find a friend or an alternate way <br>
-      to get home</p>
+      to get home.</p>
+
 
       <h3>Results</h3>
 
+      <span id="safe_whobbles">Safe Whobbles!</span>
 </div>
 
 <%= link_to (image_tag 'back_arrow'), '/play_game',class: "back_arrow" %>
