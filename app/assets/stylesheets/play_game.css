@@ -19,10 +19,10 @@
   width: 600px;
 }
 
-h2 {
+#ready {
   position: absolute;
   top: 775px;
-  left: 335px;
+  left: 345px;
   font-size: 75px;
   font-family: "HelveticaNeue-Light";
   color: #325EEA;

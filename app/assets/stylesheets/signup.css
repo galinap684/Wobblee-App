@@ -4,8 +4,7 @@
   top: 160px;
   width: 450px;
 }*/
-
-h1 {
+#signup {
   font-family: "HelveticaNeue-Light";
   color: #325EEA;
   position: absolute;
@@ -28,8 +27,9 @@ h1 {
 }
 
 .name {
-  margin-left: 140px;
-  margin-top: 920px;
+  position: absolute;
+  bottom: 775px;
+  left: 150px;
   font-size: 37px;
   color: #C8CACE;
   font-family: "HelveticaNeue-Light";
@@ -37,7 +37,7 @@ h1 {
 
 .password {
   position: absolute;
-  bottom: 560px;
+  bottom: 620px;
   left: 150px;
   font-size: 37px;
   color: #C8CACE;
@@ -103,7 +103,7 @@ h1 {
 
 #terms_of_service {
   position: absolute;
-  bottom: 40px;
+  bottom: 90px;
   left: 305px;
   font-size: 25px;
 }
@@ -129,7 +129,7 @@ h1 {
 
 .email_address_name {
   position: absolute;
-  bottom: 405px;
+  bottom: 470px;
   left: 150px;
   font-size: 37px;
   color: #C8CACE;

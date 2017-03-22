@@ -7,12 +7,13 @@
 
 <%= image_tag 'wobblee_logo_cut', class: "logo_pic" %>
 
-<h5 class="name">User Name</h5>
+<a class="name">User Name</a>
 <%= text_field_tag '', nil, class: "log_in_user_name" %>
 
-<h5 class="password">Password</h5>
+<a class="password">Password</a>
 <%= text_field_tag '', nil, class: "log_in_password" %>
 
-<%= link_to 'Log In', '/signup', class: "signup_button" %>
 
 <% end %>
+
+<%= link_to 'Log In', '/play_game', class: "signup_button" %>

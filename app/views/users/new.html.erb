@@ -1,5 +1,5 @@
 
-<h1>Sign Up</h1>
+<h1 id="signup">Sign Up</h1>
 
 <%= form_for :user, url: '/users' do |f| %>
 
@@ -12,23 +12,23 @@
 
 <%= image_tag 'wobblee_logo_cut', class: "logo_pic" %>
 
-<h5 class="name">User Name</h5>
+<a class="name">User Name</a>
 <%= text_field_tag '', nil, class: "user_name" %>
 
-<h5 class="email_address_name">Email Address</h5>
+<a class="email_address_name">Email Address</a>
 <%= text_field_tag '', nil, class: "email_address" %>
 
-<h5 class="password">Password</h5>
+<a class="password">Password</a>
 <%= text_field_tag '', nil, class: "user_password" %>
 
 <!-- <h5 class="confirm_password">Password Confirmation</h5>
 <%= text_field_tag '', nil, class: "user_password_confirmation" %> -->
 
-<p id="terms_of_service">By clicking Sign Up, you agree to the <br>
-  <span>Terms of Service</span> and <span>Privacy Policy</span></p>
+<div id="terms_of_service">By clicking Sign Up, you agree to the <br>
+  <span>Terms of Service</span> and <span>Privacy Policy</span></div>
 
   <%= link_to (image_tag 'back_arrow'), '/welcome',class: "back_arrow" %>
 
 <% end %>
 
-<%= link_to 'Sign Up', '/signup', class: "signup_button" %>
+<%= link_to 'Sign Up', '/play_game', class: "signup_button" %>
