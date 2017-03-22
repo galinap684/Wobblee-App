@@ -1,0 +1,39 @@
+#logo_pic {
+  position: absolute;
+  left: 360px;
+  top: 150px;
+  width: 300px;
+}
+
+#start_button {
+  position: absolute;
+  left: 300px;
+  bottom: 130px;
+  width: 400px;
+}
+
+#logo_name_color{
+  position: absolute;
+  left: 210px;
+  bottom: 535px;
+  width: 600px;
+}
+
+h2 {
+  position: absolute;
+  top: 775px;
+  left: 335px;
+  font-size: 75px;
+  font-family: "HelveticaNeue-Light";
+  color: #325EEA;
+}
+
+.instructions {
+  font-size: 40px;
+  font-family: "HelveticaNeue-Light";
+  color: #C8CACE;
+  position: absolute;
+  top: 485px;
+  left: 225px;
+  text-align-last: center;
+}

@@ -1,0 +1,68 @@
+
+
+
+
+
+.button {
+  background-color: #325EEA;
+  color: white;
+  font-family: "HelveticaNeue-Light";
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position : absolute ;
+  left : 140px;
+  top : 1126px;
+  width: 650px;
+  height: 90px;
+  padding-top: 30px;
+  /*width : 573pt;
+  height : 94pt;*/
+}
+
+.button2 {
+  background-color: #325EEA;
+  color: white;
+  font-family: "HelveticaNeue-Light";
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position : absolute ;
+  left : 140px;
+  top : 1325px;
+  width: 650px;
+  height: 90px;
+  padding-top: 30px;
+  /*width : 573pt;
+  height : 94pt;*/
+}
+
+
+.welcome {
+  height: 100vh;
+  background-image: url(wobblee_background);
+  background-size: 100vw;
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+}
+
+.logo {
+  margin-left: 100px;
+  position: absolute;
+  left: 45px;
+  top: 25px;
+  width: 700px;
+}
+
+.name_logo {
+  position: absolute;
+  bottom: 895px;
+  left: 190px;
+  width: 600px;
+}

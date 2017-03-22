@@ -1,9 +1,17 @@
-<!-- <h1>Login</h1>
 
-<%= form_tag '/login' do %>
 
-  Email: <%= text_field_tag :email %>
-  Password: <%= password_field_tag :password %>
-  <%= submit_tag "Submit" %>
+<div class="welcome">
 
-<% end %> -->
+
+<% if current_user %>
+Signed in as <%= current_user.name %> | <%= button_to "Logout", '/logout' %>
+<% else %>
+<%= link_to 'Log In', '/login', class: "button" %>
+<%= link_to 'Sign Up', '/signup', class: "button2" %>
+<% end %>
+
+<%= image_tag 'wobblee_logo_cut', class: "logo" %>
+
+</div>
+<!-- <%= image_tag 'wobblee_name', class: "name" %> -->
+<%= image_tag 'wobblee_name_cut', class: "name_logo" %>

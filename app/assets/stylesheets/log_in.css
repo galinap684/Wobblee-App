@@ -1,0 +1,64 @@
+#log_in {
+  font-family: "HelveticaNeue-Light";
+  color: #325EEA;
+  position: absolute;
+  top: 640px;
+  left: 370px;
+  font-size: 70px;
+}
+
+.log_in_user_name {
+  position: absolute;
+  top: 960px;
+  left: 150px;
+  width: 700px;
+  height: 50px;
+  border-style: none;
+  border-bottom: 5px solid #C8CACE;
+  background-color: white;
+  font-size: 30px;
+}
+
+.log_in_password {
+  position: absolute;
+  top: 1115px;
+  left: 150px;
+  width: 700px;
+  height: 50px;
+  border-style: none;
+  border-bottom: 5px solid #C8CACE;
+  background-color: white;
+  font-size: 30px;
+}
+
+.logo_pic {
+  position: absolute;
+  left: 255px;
+  top: 205px;
+  width: 450px;
+}
+
+.signup_button {
+  background-color: #325EEA;
+  color: white;
+  font-family: "HelveticaNeue-Light";
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  left: 140px;
+  top: 1400px;
+  width: 650px;
+  height: 90px;
+  padding-top: 30px;
+}
+
+.back_arrow {
+  position: absolute;
+  top: 100px;
+  left: 90px;
+  width: 110px;
+}

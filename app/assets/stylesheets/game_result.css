@@ -1,0 +1,53 @@
+.gif {
+  background-image: url(https://media.giphy.com/media/3oEjI9T0ixjZCFwi8U/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+
+#paragraph_line_one {
+  font-size: 37px;
+  font-family: "HelveticaNeue-Light";
+  color: #75797F;
+  position: absolute;
+  top: 980px;
+  left: 195px;
+}
+
+#paragraph_line_two {
+  font-size: 37px;
+  font-family: "HelveticaNeue-Light";
+  color: #75797F;
+  position: absolute;
+  bottom: 380px;
+  left: 185px;
+  text-align-last: center;
+}
+
+#paragraph_line_three {
+  font-size: 37px;
+  font-family: "HelveticaNeue-Light";
+  color: #75797F;
+  position: absolute;
+  bottom: 200px;
+  left: 195px;
+  text-align-last: center;
+}
+
+h3 {
+  font-size: 45px;
+  font-family: "HelveticaNeue-Light";
+  color: white;
+  background-color: #325EEA;
+  padding: 10px 45px 10px 45px;
+  position: absolute;
+  top: 800px;
+  left: 350px;
+  border-radius: 10px;
+}
+
+span {
+  color: #325EEA;
+}
